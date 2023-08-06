@@ -241,7 +241,7 @@ InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("❗ How to download ❓", url=f"https://t.me/howtowatch_sharedisk"),
+        InlineKeyboardButton("❗ How to download ❓", url=f"https://t.me/howtowatch_sharediskbot"),
 
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
@@ -356,7 +356,7 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
-                    InlineKeyboardButton("❗How to download❓", url=f"https://t.me/powerdisk18"),
+                    InlineKeyboardButton("❗How to download❓", url=f"https://t.me/howtowatch_sharediskbot"),
 
             InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
@@ -1626,7 +1626,7 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-                InlineKeyboardButton("❗ How to download ❓", url=f"https://t.me/howtowatch_sharedisk"),
+                InlineKeyboardButton("❗ How to download ❓", url=f"https://t.me/howtowatch_sharediskbot"),
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{message.from_user.id}")
     ])
 
